@@ -48,6 +48,20 @@ Today, I started learning **ReactJS**, covering its core concepts and folder str
 6. **Props (Properties)** - Passing data between components.
 7. **State** - Managing component state.
 
+### **Day 3: React State Management (setState)**
+Today, I focused on **state management in React**, specifically the `setState` method in class components.
+
+#### **Key Learnings:**
+- Always use `setState` and never modify the state directly.
+- If code needs to run **after** the state update, place it inside the callback function (second argument of `setState`).
+- When updating state **based on the previous state value**, pass a **function** instead of a regular object.
+
+📌 **Example:**
+```jsx
+this.setState((prevState) => ({
+  count: prevState.count + 1
+}));
+
 📌 **Resources:** Codevolution ReactJS Tutorials
 
 ## 📌 How to Use This Repo

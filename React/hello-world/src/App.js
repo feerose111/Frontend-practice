@@ -3,23 +3,26 @@ import './App.css';
 import Greet from './Components/Greet';
 import Welcome from './Components/Welcome';
 import Message from './Components/Message';
+import Counter from './Components/Counter';
 
 function App() {
   return (
     <div className="App">
-        <Message/>
+        {/* <Counter/>  */}
+        {/* <Message/> */}
         {/* functional props */}
-        <Greet name="Bruce" heroName="Batman" >
+        {/* <Greet name="Bruce" heroName="Batman" >
           <p>This is a child props </p></Greet> 
         <Greet name="Kent" heroName="Superman">
           <button>Action</button>
           </Greet> 
-        <Greet name ="Diana" heroName="Wonder Woman"/> 
+          */}
+        <Greet name ="Diana" heroName="Wonder Woman"/>  
 
         {/* Class props */}
-        <Welcome name="Bruce" heroName="Batman"  /> 
+         <Welcome name="Bruce" heroName="Batman"  /> {/*
         <Welcome name="Kent" heroName="Superman"  /> 
-        <Welcome name="Diana" heroName="Wonder Woman"  /> 
+        <Welcome name="Diana" heroName="Wonder Woman"  />  */}
     </div>
   );
 }

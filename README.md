@@ -1,8 +1,6 @@
 # Frontend Learning Journal 📘
 
-This repository is dedicated to my daily learning journey in frontend development. I'll be documenting what I learn each day to track my progress and reinforce my understanding.
-
----
+## This repository started as a daily log of my **frontend development** learning journey. However, after careful consideration, I have decided to pivot my focus towards **AI-related skills** that align better with my interests.
 
 ## 📅 Daily Learning Log
 
@@ -49,15 +47,18 @@ Today, I started learning **ReactJS**, covering its core concepts and folder str
 7. **State** - Managing component state.
 
 ### **Day 3: React State Management (setState)**
+
 Today, I focused on **state management in React**, specifically the `setState` method in class components.
 
 #### **Key Learnings:**
+
 - Always use `setState` and never modify the state directly.
 - If code needs to run **after** the state update, place it inside the callback function (second argument of `setState`).
 - When updating state **based on the previous state value**, pass a **function** instead of a regular object.
 
 📌 **Example:**
-```jsx
+
+`````jsx
 this.setState((prevState) => ({
   count: prevState.count + 1
 }));
@@ -82,5 +83,8 @@ I'll be updating this repository daily with new learnings. Each day's progress w
 
 ```typescript
 // Example Code (if applicable)
+`````
+
 ```
-````
+
+```
